@@ -21,6 +21,18 @@ namespace KillNickelback
             allSongs.Add(new Song { Artist = "Graham Nash", Name = "Military Madness" });
             allSongs.Add(new Song { Artist = "Neil Young", Name = "Heart of Gold" });
 
+            foreach (var song in allSongs)
+            {
+                if (song.Artist != "Nickelback")
+                {
+                    goodSongs.Add(song.Name);
+                }
+            }
+
+            foreach (var song in goodSongs)
+            {
+                Console.WriteLine($"{song} is a good song, because it was not written by Nickelback.");
+            }
         }
     }
 }
