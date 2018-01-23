@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillNickelback", "KillNickelback\KillNickelback.csproj", "{E297D18A-17F7-4778-9035-7A842A101C1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E297D18A-17F7-4778-9035-7A842A101C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E297D18A-17F7-4778-9035-7A842A101C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E297D18A-17F7-4778-9035-7A842A101C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E297D18A-17F7-4778-9035-7A842A101C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EA733E2-C339-4685-BDB6-B4CE02A70836}
+	EndGlobalSection
+EndGlobal
